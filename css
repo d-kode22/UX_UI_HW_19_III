@@ -1,0 +1,165 @@
+
+.logo {
+    width:40%;
+    padding: 1%;
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 2%;
+    overflow: hidden;
+    background-color: rgb(118, 117, 117);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(126, 10, 10);
+  }
+
+.parent {
+    width: 800px;
+    padding: 100px;
+    outline: 25px solid rgb(11, 20, 63);
+    background-color: rgb(181, 178, 172);
+    margin: auto;
+}
+
+.headshot {
+    height: 600px;
+    padding: 1px;
+    width: 600px;
+    margin: auto;
+    outline: 5px solid rgb(196, 199, 196);
+    display: block;
+}
+
+footer {
+    background-color: #373738;
+    padding: 2%;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.li a {
+    width: 40%;
+    padding: 20%;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(190, 113, 6);
+    width: 30%;
+    height: 7%;
+    padding: 1%;
+    Margin: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    font-size:16px;
+    display: block;
+}
+.mySkills {
+    height: auto;
+    margin: auto;
+    background-color: rgb(181, 178, 172);
+}
+.myWork {
+  height: 2700px;
+  margin: auto;
+  background-color: rgb(181, 178, 172);
+}
+p {
+    font-size:16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    color: white;
+  }
+
+.thispage {
+    color: rgb(248, 180, 84)
+}
+body {
+    margin: auto;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 33%;
+  margin: auto;
+  padding: 5%;
+}
+.boxes {
+  outline: 15px solid rgb(11, 20, 63);
+  margin: 5%;
+  padding: 2%;
+  flex: 1 1 auto;
+}
+h1 {
+  text-align: center;
+  margin: auto;
+  padding: 1%;
+  font-size:36px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.container-with-grid {
+  display: grid;
+  height: 700px;
+  grid-template-columns: 66% 33%;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "topRow headerBar"
+    "leftSidebar rightContent"
+    "footerBar footerBarright";
+  grid-gap: 100px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.topRow {
+  outline: 35px solid rgb(11, 20, 63);
+  margin-left: 10%;
+  background-color: rgb(222, 219, 216);
+}
+.leftSidebar {
+  outline: 35px solid rgb(11, 20, 63);
+  margin-left: 10%;
+  background-color: rgb(222, 219, 216);
+}
+.footerBar {
+  outline: 35px solid rgb(11, 20, 63);
+  margin-left: 10%;
+  background-color: rgb(222, 219, 216);
+}
+.box1 {
+  padding: 5%;
+  margin-left: 10%;
+  align-items: center;
+}
+h4 {
+margin: auto;
+padding: 10%;
+font-size:36px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(14, 5, 69);
+}
+p1 {
+  font-size:24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+  color: white;
+  text-align-last: justify;
+  margin: auto;
+  padding: 1%;
+}
